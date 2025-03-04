@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Outlet, Routes } from "react-router-dom"
+import Foolter from "./components/layout/foolter/foolter"
+import Navbar from "./components/navbar/narbar"
+import "./App.css"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-   hello word
+      <div className="App" >
+        <Navbar />
+        <Outlet />
+        <Foolter />
+      </div>
     </>
+
   )
 }
 
