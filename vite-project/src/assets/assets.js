@@ -25,6 +25,8 @@ import avarta4 from "./Picture04.svg";
 import avarta5 from "./Picture05.svg";
 import avarta6 from "./Picture06.svg";
 import icon_profile from "./icon3.svg";
+import SkipLeft from "./Arrow_left.svg";
+import SkipRight from "./SkipRight.svg";
 
 export const assets = {
   logo_1,
@@ -36,6 +38,8 @@ export const assets = {
   icon1,
   icon2,
   icon_profile,
+  SkipLeft,
+  SkipRight,
 };
 export const asset_Company = [
   { image: Company_logo },

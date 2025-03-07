@@ -1,7 +1,6 @@
 .tab {
     width: 100%;
     margin: auto;
-
 }
 
 .tab__item {
@@ -56,6 +55,7 @@
     justify-content: right;
     align-items: center;
 }
+
 
 .tab__content-wrapper {
     max-height: 0;

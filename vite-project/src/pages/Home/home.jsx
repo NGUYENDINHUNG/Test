@@ -2,6 +2,8 @@ import ButtonAccordions from "../../components/ButtonAccordions/ButtonAccordions
 import CardList from "../../components/Card/CardList"
 import CardGroup from "../../components/CardGroup/CardGroup"
 import CardService from "../../components/CardSevice/CardSevice"
+import Sliders from "../../components/Carousel/Carousel"
+import Carousel from "../../components/Carousel/Carousel"
 import CaseStudies from "../../components/CaseStudies/CaseStudies"
 import ExportCompany from "../../components/ExportCompanyMenu/ExportCompany"
 import Header from "../../components/header/header"
@@ -34,6 +36,11 @@ const HomePage = () => {
                 content={"Meet the skilled and experienced team behind our successful digital marketing strategies"}
             />
             <CardGroup />
+            <Heading
+                title={"Testimonials "}
+                content={"Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"}
+            />
+            <Sliders/>
         </div>
     )
 }

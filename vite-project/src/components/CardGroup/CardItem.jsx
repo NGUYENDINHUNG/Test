@@ -12,7 +12,7 @@ const CardItem = ({ name, avarta, position, title }) => {
                     <h4>{name}</h4>
                     <p>{position}</p>
                 </div>
-                <div className="icon"><img src={assets.icon_profile} />
+                <div className="card_icon"><img src={assets.icon_profile} />
                 </div>
             </div>
 

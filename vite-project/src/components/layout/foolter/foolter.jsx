@@ -1,3 +1,5 @@
+import "./Foolter.css"
+
 const Foolter = () => {
     return (
         <div>

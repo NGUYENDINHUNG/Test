@@ -1,0 +1,133 @@
+.testimonials-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.testimonials-wrapper {
+    background-color: #0a2640;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.striped-pattern {
+    height: 64px;
+    background-image: repeating-linear-gradient(45deg, #0a2640, #0a2640 10px, #0c2e4d 10px, #0c2e4d 20px);
+}
+
+.testimonials-title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 16px;
+}
+
+.carousel-container {
+    padding: 32px;
+}
+
+.carousel-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+}
+
+.carousel-content::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    padding: 16px;
+}
+
+.testimonial-card {
+    border: 2px solid #65e4a3;
+    border-radius: 24px;
+    background-color: transparent;
+    color: white;
+    padding: 24px;
+}
+
+.testimonial-quote {
+    margin-bottom: 16px;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+.testimonial-author {
+    margin-top: 24px;
+}
+
+.author-name {
+    color: #65e4a3;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.author-position {
+    color: #e0e0e0;
+}
+
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 8px;
+}
+
+.carousel-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-button:hover {
+    opacity: 0.8;
+}
+
+.carousel-button svg {
+    width: 32px;
+    height: 32px;
+}
+
+.carousel-dots {
+    display: flex;
+    gap: 8px;
+}
+
+.carousel-dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #4d5d6c;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.carousel-dot.active {
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        padding: 16px;
+    }
+
+    .testimonial-card {
+        padding: 16px;
+    }
+}

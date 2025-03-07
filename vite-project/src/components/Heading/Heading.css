@@ -3,7 +3,8 @@
     width: 100%;
     align-items: center;
     gap: 20px;
-    padding: 50px 20px;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 
 .heading_title {
