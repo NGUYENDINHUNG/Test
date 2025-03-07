@@ -1,0 +1,98 @@
+.content_service {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  background: var(--Grey, #F3F3F3);
+  margin: 50px auto;
+  align-items: center;
+  margin: 0px;
+}
+
+.content_service_left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 60px;
+}
+
+.content_service_left h3 {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0px;
+}
+
+.content_service_left p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.button_service {
+  display: flex;
+  padding: 20px 35px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 14px;
+  background: var(--Dark, #191A23);
+}
+
+.button_service label {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button_service {
+  /* Các thuộc tính CSS hiện tại */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* Thêm transition */
+}
+
+.button_service:hover {
+  transform: translateY(-2px);
+  /* Nút nhích lên khi hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Thêm bóng đổ khi hover */
+}
+
+.button_service:active {
+  transform: translateY(1px);
+  /* Nút nhích xuống khi nhấn */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Bóng đổ nhỏ hơn khi nhấn */
+}
+
+.content_service_right {
+  flex: 2;
+  /* Điều chỉnh để chia sẻ không gian với content_service_left */
+  display: flex;
+  justify-content: flex-end;
+  /* Căn phải nội dung */
+  align-items: center;
+}
+
+.graphics_service {
+  position: relative;
+  /* Cần thiết cho việc định vị */
+  overflow: visible;
+  /* Cho phép nội dung tràn ra ngoài */
+
+}
+
+.graphics_service img {
+  max-width: 100%;
+  /* Đảm bảo hình ảnh không vượt quá kích thước */
+  height: auto;
+  transform: translateX(20px);
+}

@@ -1,0 +1,39 @@
+.heading {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.heading_title {
+    display: flex;
+    padding: 0px 15px;
+    align-items: center;
+    border-radius: 7px;
+    background-color: var(--Green, #B9FF66);
+}
+
+.heading_title h2 {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: inherit;
+    margin: 0;
+}
+
+.heading_content {
+    flex: 0.7;
+    padding: 0px 40px;
+    /* Chiếm 25% tổng chiều rộng */
+}
+
+.heading_content p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0px 0px;
+}

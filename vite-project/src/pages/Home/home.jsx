@@ -1,5 +1,11 @@
+import ButtonAccordions from "../../components/ButtonAccordions/ButtonAccordions"
+import CardList from "../../components/Card/CardList"
+import CardGroup from "../../components/CardGroup/CardGroup"
+import CardService from "../../components/CardSevice/CardSevice"
+import CaseStudies from "../../components/CaseStudies/CaseStudies"
 import ExportCompany from "../../components/ExportCompanyMenu/ExportCompany"
 import Header from "../../components/header/header"
+import Heading from "../../components/Heading/Heading"
 
 
 const HomePage = () => {
@@ -7,6 +13,27 @@ const HomePage = () => {
         <div>
             <Header />
             <ExportCompany />
+            <CardList />
+            <Heading
+                title={"Service"}
+                content={"At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"}
+            />
+            <CardService />
+            <Heading
+                title={"Case Studies"}
+                content={"Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies"}
+            />
+            <CaseStudies />
+            <Heading
+                title={"Our Working Process "}
+                content={"Step-by-Step Guide to Achieving Your Business Goals"}
+            />
+            <ButtonAccordions />
+            <Heading
+                title={"Team "}
+                content={"Meet the skilled and experienced team behind our successful digital marketing strategies"}
+            />
+            <CardGroup />
         </div>
     )
 }

@@ -42,6 +42,20 @@
     color: #FFFFFF;
 }
 
+.header-content-left button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.header-content-left button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-content-left button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .header-content-right {
     max-width: 100%;
     max-height: 100%;

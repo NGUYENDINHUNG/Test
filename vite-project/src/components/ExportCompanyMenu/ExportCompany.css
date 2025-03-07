@@ -1,6 +1,6 @@
 .explore-menu {
     display: flex;
-    width: 1440px;
+    max-width: 1440px;
     padding: 0px 100px;
     justify-content: space-between;
     align-items: flex-start;

@@ -1,0 +1,33 @@
+<svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="41" height="41" fill="#BDBDBD"/>
+<g id="Home">
+<rect width="1440" height="8356" transform="translate(-150 -1321)" fill="white"/>
+<g id="Services block">
+<g id="Cards section">
+<g id="Card" filter="url(#filter0_d_25_145)">
+<rect x="-50" y="-219" width="600" height="310" rx="45" fill="#F3F3F3"/>
+<rect x="-49.5" y="-218.5" width="599" height="309" rx="44.5" stroke="#191A23"/>
+<g id="Heading and link">
+<g id="Link">
+<g id="Icon">
+<circle id="Ellipse 1" cx="20.5" cy="20.5" r="20.5" fill="#191A23"/>
+<path id="Arrow 1" d="M11.25 24.701C10.5326 25.1152 10.2867 26.0326 10.701 26.75C11.1152 27.4674 12.0326 27.7133 12.75 27.299L11.25 24.701ZM30.7694 16.3882C30.9838 15.588 30.5089 14.7655 29.7087 14.5511L16.6687 11.0571C15.8685 10.8426 15.046 11.3175 14.8316 12.1177C14.6172 12.9179 15.0921 13.7404 15.8923 13.9548L27.4834 17.0607L24.3776 28.6518C24.1631 29.452 24.638 30.2745 25.4382 30.4889C26.2384 30.7033 27.0609 30.2284 27.2753 29.4282L30.7694 16.3882ZM12.75 27.299L30.0705 17.299L28.5705 14.701L11.25 24.701L12.75 27.299Z" fill="#B9FF66"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_25_145" x="-50" y="-219" width="600" height="315" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0980392 0 0 0 0 0.101961 0 0 0 0 0.137255 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25_145"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25_145" result="shape"/>
+</filter>
+</defs>
+</svg>

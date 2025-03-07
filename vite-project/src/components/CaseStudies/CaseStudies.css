@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+.case_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 64px;
+    padding: 60px 70px;
+    border-radius: 20px;
+    background: var(--Dark, #191A23);
+}
+
+.case_card {
+    background: var(--Dark, #191A23);
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+
+}
+
+.case_card:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+    opacity: 0.5;
+
+}
+
+
+.case_card a {
+    display: flex;
+    color: var(--Green, #B9FF66);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    gap: 15px;
+    padding-top: 20px;
+    /* 140% */
+}
+
+.case_card a img {
+    width: 16px;
+    height: auto;
+    gap: 20px;
+}
