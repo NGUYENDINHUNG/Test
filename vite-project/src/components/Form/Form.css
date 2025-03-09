@@ -103,3 +103,55 @@
     max-height: 648px;
     flex-shrink: 0;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .Form {
+        flex-direction: column;
+
+        align-items: center;
+        padding: 40px;
+        gap: 30px;
+    }
+
+    .Form-register {
+        width: 100%;
+    }
+
+    .radios-button {
+        display: flex;
+        align-items: flex-start;
+        gap: 0px;
+        padding-left: 30px;
+    }
+
+    .form_title {
+        padding-left: 50px;
+    }
+
+    .field,
+    .messenger,
+    .button_form {
+        width: 100%;
+        max-width: none;
+
+    }
+
+    .image_form {
+        display: none;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .radios-button {
+        gap: 10px;
+    }
+
+    .Form {
+        padding: 20px;
+        /* Even smaller padding on tiny screens */
+    }
+}

@@ -18,11 +18,11 @@ const HomePage = () => {
         <div>
             <Header />
             <ExportCompany />
-            <CardList />
             <Heading
                 title={"Service"}
                 content={"At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"}
             />
+            <CardList />
             <CardService />
             <Heading
                 title={"Case Studies"}

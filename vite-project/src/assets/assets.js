@@ -164,4 +164,12 @@ export const Profile = [
       "2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries",
     avarta: avarta6,
   },
+  {
+    id: "7",
+    name: "Sarah Kim",
+    position: "Content Creator",
+    title:
+      "2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries",
+    avarta: avarta6,
+  },
 ];

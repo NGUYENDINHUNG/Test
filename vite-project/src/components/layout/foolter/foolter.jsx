@@ -44,7 +44,7 @@ const Foolter = () => {
             <hr className="line"></hr>
 
 
-            <div className="text">
+            <div className="text_foolter">
                 <span> <p>© 2023 Positivus. All Rights Reserved.</p></span>
                 <span> <p>Privacy Policy</p></span>
 

@@ -1,3 +1,4 @@
+
 .cardGroup {
     display: flex;
     flex-direction: column;
@@ -12,12 +13,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     width: 100%;
-    max-width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
 
-.cardGroup .card_button {
-    transform: translateX(950px)
-}
 
 .card_button {
     display: flex;
@@ -28,15 +28,34 @@
     gap: 10px;
     border-radius: 14px;
     background: var(--Dark, #191A23);
-
+    color: #fff;
+    border: none;
+    cursor: pointer;
+   
 }
 
 .card_button label {
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    /* 140% */
+}
+
+@media (max-width: 1200px) {
+    .cardGroup_item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .cardGroup_item {
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+    }
+
+    .card_button {
+        max-width: 100%;
+    }
 }
