@@ -1,4 +1,19 @@
+
 @import "tailwindcss";
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .navbar-menu {
     display: flex;
@@ -18,4 +33,81 @@
     font-weight: 400;
     font-style: normal;
     line-height: 28px;
+}
+
+.quote-button {
+    border: 1px solid #191a23;
+    border-radius: 14px;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 24px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.hamburger span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .navbar-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-menu.show {
+        display: flex;
+    }
+
+    .nav-item {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav-item a {
+        font-size: 16px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .quote-button {
+        width: 100%;
+        padding: 15px;
+    }
 }

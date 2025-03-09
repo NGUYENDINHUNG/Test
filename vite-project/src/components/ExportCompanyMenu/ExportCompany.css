@@ -1,22 +1,64 @@
-.explore-menu {
-    display: flex;
+.export_menu {
+    width: 100%;
     max-width: 1440px;
-    padding: 0px 100px;
-    justify-content: space-between;
-    align-items: flex-start;
+    margin: 0 auto;
 }
 
 .export_menu_list {
     display: flex;
-    width: 100%;
-
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .export_menu_list img {
     height: 7.5vw;
-    width: 7.5vw;
+    width: auto;
     min-width: 80px;
+    max-height: 50px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
 
+.export_menu_list img:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .export_menu {
+        padding: 0 20px;
+    }
+
+    .export_menu_list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        row-gap: 30px;
+    }
+
+    .export_menu_list img {
+        height: auto;
+        width: 100%;
+        max-width: 100px;
+        min-width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .export_menu_list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        row-gap: 30px;
+    }
 }

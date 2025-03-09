@@ -27,7 +27,11 @@ import avarta6 from "./Picture06.svg";
 import icon_profile from "./icon3.svg";
 import SkipLeft from "./Arrow_left.svg";
 import SkipRight from "./SkipRight.svg";
-
+import contact from "./contact.svg";
+import foolterIcon1 from "./foolterIcon1.svg";
+import foolterIcon2 from "./FoolterIcon2.svg";
+import foolterIcon3 from "./FoolterIcon3.svg";
+import Logo_Foolter from "./Logo_foolter.svg";
 export const assets = {
   logo_1,
   header,
@@ -40,6 +44,11 @@ export const assets = {
   icon_profile,
   SkipLeft,
   SkipRight,
+  contact,
+  foolterIcon1,
+  foolterIcon2,
+  foolterIcon3,
+  Logo_Foolter,
 };
 export const asset_Company = [
   { image: Company_logo },

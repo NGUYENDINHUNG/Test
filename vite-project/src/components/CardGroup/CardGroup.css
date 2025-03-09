@@ -15,9 +15,10 @@
     max-width: 100%;
 }
 
-.cardGroup .card_button{
+.cardGroup .card_button {
     transform: translateX(950px)
 }
+
 .card_button {
     display: flex;
     max-width: 269px;
@@ -27,7 +28,7 @@
     gap: 10px;
     border-radius: 14px;
     background: var(--Dark, #191A23);
- 
+
 }
 
 .card_button label {

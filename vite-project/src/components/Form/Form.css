@@ -1,0 +1,105 @@
+.Form {
+    display: flex;
+    max-width: 100%;
+    padding: 60px 100px 80px 0px;
+    align-items: flex-start;
+    gap: 100px;
+    flex-shrink: 0;
+    border-radius: 45px;
+    background: var(--Grey, #F3F3F3);
+    padding-left: 100px;
+}
+
+.Form-register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.radios-button {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.cuttom {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.radio {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 29px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.radios-button p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.field {
+    display: flex;
+    width: 556px;
+    padding: 18px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.messenger {
+    display: flex;
+    width: 556px;
+    height: 190px;
+    padding: 18px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.button_form {
+    display: flex;
+    width: 556px;
+    padding: 20px 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 14px;
+    background: var(--Dark, #191A23);
+}
+
+.button_form p {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.image_form {
+    max-width: 649.859px;
+    max-height: 648px;
+    flex-shrink: 0;
+}

@@ -1,0 +1,175 @@
+.foolter {
+    display: flex;
+    padding: 55px 60px 50px 60px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    border-radius: 45px 45px 0px 0px;
+    background: var(--Dark, #191A23);
+    margin-top: 100px;
+}
+
+.foolter_item_menu {
+    display: flex;
+    max-width: 1121px;
+    align-items: center;
+    gap: 155px;
+
+}
+
+.foolter_logo {
+    display: flex;
+    max-width: 180px;
+    max-height: 29px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.593px;
+    flex-shrink: 0;
+}
+
+.foolter_menu {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.foolter_menu a {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.foolter_right {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.foolter_content {
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.foolter_content_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+}
+
+.foolter_heading {
+    display: flex;
+    padding: 0px 7px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 7px;
+    background: var(--Green, #B9FF66);
+}
+
+.foolter_heading h4 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.foolter_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.foolter_info p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foolter_content_right {
+    display: flex;
+    padding: 58px 40px;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 14px;
+    background: #292A32;
+}
+
+.foolter_field {
+    display: flex;
+    max-width: 285px;
+    padding: 22px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 14px;
+    border: 1px solid #FFF;
+}
+
+.foolter_field::placeholder {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.foolter_button {
+    display: flex;
+    padding: 20px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 14px;
+    background: var(--Green, #B9FF66);
+}
+
+.foolter_button p {
+    color: var(--Black, #000);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.line_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+
+}
+
+.line {
+    border: 1px solid #FFFFFF;
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.text p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+   
+}
