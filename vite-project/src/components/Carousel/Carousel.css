@@ -1,96 +1,155 @@
-.carousel-container {
-    max-width: 100%;
-    padding: 84px 0px 68px 0px;
+.carousel_container {
+    position: relative;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 84px 60px;
     border-radius: 45px;
     background: var(--Dark, #191A23);
-    flex-direction: column;
-    gap: 124px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.carousel-content {
-    display: flex;
-    max-width: 606px;
-    max-height: 237.952px;
+.carousel_content {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-.carousel-item {
-    flex: 0 0 100%;
-    scroll-snap-align: start;
-    padding: 16px;
-}
-.testimonial-quote {
-    fill: #191A23;
-    stroke-width: 1px;
-    stroke: var(--Green, #B9FF66);
-}
-
-/* .testimonial-card {
+.carousel_card {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 24px;
+    padding: 20px;
+}
+
+.card_carousel_content {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    background: #191A23;
+    border: 2px solid var(--Green, #B9FF66);
+    border-radius: 24px;
+    padding: 40px;
+    position: relative;
+}
+
+.card_carousel_content::before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid var(--Green, #B9FF66);
+}
+
+.card_carousel_content::after {
+    content: '';
+    position: absolute;
+    bottom: -17px;
+    left: 42px;
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid #191A23;
 }
 
 
-.testimonial-author {
-    margin-top: 24px;
+
+.card_author {
+    text-align: left;
+    padding-left: 40px;
 }
 
-.author-name {
-    font-weight: 600;
-    margin-bottom: 4px;
+.card_author h4 {
+    color: var(--Green, #B9FF66);
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 4px 0;
 }
 
-.author-position {
-    color: #e0e0e0;
+.card_author p {
+    color: #FFF;
+    font-size: 16px;
+    margin: 0;
+    opacity: 0.8;
 }
 
-.carousel-controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 32px;
-    gap: 8px;
-}
-
-.carousel-button {
-    background-color: transparent;
+.carousel_button {
+    position: absolute;
+    background: transparent;
     border: none;
-    color: white;
     cursor: pointer;
-    padding: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #FFF;
+    padding: 10px;
+    z-index: 2;
 }
 
-
-
-.carousel-dots {
-    display: flex;
-    gap: 8px;
+.carousel_button.prev {
+    left: 20px;
 }
 
-.carousel-dot {
-    height: 12px;
-    width: 12px;
+.carousel_button.next {
+    right: 20px;
+}
+
+.carousel_dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    background-color: #4d5d6c;
-    border: none;
+    background: #FFF;
+    opacity: 0.3;
     cursor: pointer;
-    padding: 0;
+    transition: all 0.3s ease;
 }
 
-.carousel-dot.active {
-    background-color: white;
-} */
+.dot.active {
+    opacity: 1;
+    background: var(--Green, #B9FF66);
+}
+
+.carousel_button {
+    transition: transform 0.2s ease;
+}
+
+.carousel_button:hover {
+    transform: scale(1.1);
+}
 
 @media (max-width: 768px) {
-    .carousel-container {
-        padding: 16px;
+    .carousel_container {
+        padding: 40px 20px;
     }
 
-    .testimonial-card {
-        padding: 16px;
+    .carousel_button {
+        display: none;
+    }
+
+    .card_carousel_content {
+        font-size: 16px;
+        padding: 30px;
+    }
+
+    .card_author h4 {
+        font-size: 18px;
+    }
+
+    .carousel_card {
+        padding: 10px;
     }
 }

@@ -102,6 +102,12 @@
     max-width: 649.859px;
     max-height: 648px;
     flex-shrink: 0;
+    overflow: hidden;
+}
+
+.image_form img {
+
+    overflow: hidden;
 }
 
 

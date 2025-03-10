@@ -24,12 +24,17 @@ const CardGroup = () => {
             title={item.title}
           />
         ))}
-        {Profile.length > 6 && (
+        {/* {Profile.length > 6 && (
+          <button className="card_button" onClick={toggleShowAll}>
+            <label>{showAll ? "See Less" : "See All Team"}</label>
+          </button>
+        )} */}
+      </div>
+      {Profile.length > 6 && (
           <button className="card_button" onClick={toggleShowAll}>
             <label>{showAll ? "See Less" : "See All Team"}</label>
           </button>
         )}
-      </div>
     </div>
   );
 };
