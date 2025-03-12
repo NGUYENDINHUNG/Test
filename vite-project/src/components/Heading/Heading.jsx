@@ -14,4 +14,6 @@ const Heading = ({ title, content }) => {
     )
 }
 
+
 export default Heading
+

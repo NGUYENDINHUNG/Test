@@ -20,7 +20,6 @@ const Foolter = () => {
                     <img src={assets.foolterIcon2} />
                     <img src={assets.foolterIcon3} />
                 </div>
-
             </div>
             <div className="foolter_content">
                 <div className="foolter_content_left">
@@ -33,7 +32,6 @@ const Foolter = () => {
                         <p>Address: 1234 Main St <br />
                             Moonstone City, Stardust State 12345</p>
                     </div>
-
                 </div>
                 <div className="foolter_content_right">
 
@@ -42,12 +40,9 @@ const Foolter = () => {
                 </div>
             </div>
             <hr className="line"></hr>
-
-
             <div className="text_foolter">
                 <span> <p>© 2023 Positivus. All Rights Reserved.</p></span>
                 <span> <p>Privacy Policy</p></span>
-
             </div>
 
         </div>

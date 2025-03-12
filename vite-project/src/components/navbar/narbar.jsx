@@ -10,10 +10,8 @@ const Navbar = () => {
   return (
     <nav className="nav-container">
       <Link className="logo-link" to="/">
-        <img src={assets.logo_1 || "/placeholder.svg"} alt="Positivus" />
+        <img src={assets.logo_1} />
       </Link>
-
-      {/* Hamburger Menu Icon */}
       <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
         <div className="hamburger">
           <span></span>
@@ -21,8 +19,6 @@ const Navbar = () => {
           <span></span>
         </div>
       </button>
-
-     
       <div className={`navbar-menu ${isMenuOpen ? "show" : ""}`}>
         <div className="nav-item">
           <Link to="/">About Us</Link>
